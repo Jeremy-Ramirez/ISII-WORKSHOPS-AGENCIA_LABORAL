@@ -11,4 +11,19 @@ public class CarInsurance {
 
 	}
 
+	public int getAge() {
+		return age;
+	}
+
+	public String getMaritalStatus() {
+		return maritalStatus;
+	}
+
+	
+	public int getBasePremium() {
+		return basePremium;
+	}
+	
+	
+
 }
