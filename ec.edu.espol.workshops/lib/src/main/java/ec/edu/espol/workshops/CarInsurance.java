@@ -24,6 +24,13 @@ public class CarInsurance {
 		return basePremium;
 	}
 	
-	
-
+	public void  setAge(int age)    { 
+            this.age = age;
+    }
+	public void  setSex(char sex)    {
+        this.sex = sex;
+	}
+	public void  setMaritalStatus(String maritalStatus)    {
+        this.maritalStatus = maritalStatus;
+	}
 }
