@@ -1,0 +1,307 @@
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:3[0m
+[0;32m    rule: [0mUnusedImports
+[0;32m    msg:  [0mUnusedImports: Unused import 'java.util.Scanner'
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m3:3[0m
+[0;32m    rule: [0mUnusedImports
+[0;32m    msg:  [0mUnusedImports: Unused import 'java.util.Scanner'
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m5:92[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m5:92[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m7:52[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m7:52[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m7:52[0m
+[0;32m    rule: [0mDataClass
+[0;32m    msg:  [0mDataClass: The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=8, WMC=9)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m7:52[0m
+[0;32m    rule: [0mDataClass
+[0;32m    msg:  [0mDataClass: The class 'Customer' is suspected to be a Data Class (WOC=0.000%, NOPA=4, NOAM=8, WMC=9)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m11:11[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m11:11[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m13:19[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m13:19[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mFinalFieldCouldBeStatic
+[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mFinalFieldCouldBeStatic
+[0;32m    msg:  [0mFinalFieldCouldBeStatic: This final field could be made static
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m58:73[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m58:73[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:61[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '59'-'61').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:61[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '59'-'61').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:65[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '59'-'65').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:65[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '59'-'65').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:69[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '59'-'69').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:69[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '59'-'69').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:73[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'premium' (lines '59'-'73').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:73[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'premium' (lines '59'-'73').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mUnusedAssignment
+[0;32m    msg:  [0mUnusedAssignment: The initializer for variable 'premium' is never used (overwritten on lines 61, 65 and 69)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m59:59[0m
+[0;32m    rule: [0mUnusedAssignment
+[0;32m    msg:  [0mUnusedAssignment: The initializer for variable 'premium' is never used (overwritten on lines 61, 65 and 69)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mCompareObjectsWithEquals
+[0;32m    msg:  [0mCompareObjectsWithEquals: Use equals() to compare object references.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mCompareObjectsWithEquals
+[0;32m    msg:  [0mCompareObjectsWithEquals: Use equals() to compare object references.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mCompareObjectsWithEquals
+[0;32m    msg:  [0mCompareObjectsWithEquals: Use equals() to compare object references.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mCompareObjectsWithEquals
+[0;32m    msg:  [0mCompareObjectsWithEquals: Use equals() to compare object references.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m64:64[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m75:80[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m75:80[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m82:89[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m82:89[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m86:86[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m86:86[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m87:87[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/CarInsurance.java[0m:[0;36m87:87[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+
+
+Summary:
+
+ec.edu.espol.workshops.CarInsurance : 21
+[1;33m*[0m warnings: [1;37m60[0m
