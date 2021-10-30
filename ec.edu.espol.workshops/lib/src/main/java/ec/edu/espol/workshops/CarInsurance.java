@@ -61,6 +61,13 @@ public class CarInsurance {
   */
   public double computePremium(Customer c) {
     int premium = 0;
+    if(c.getAge()<=0) {
+    	return -1;
+    }
+    if(c.getSex()!="M"|c.getSex()!="F") {
+    	return -1;
+    }
+    
     if (c.getSex() == "M" && c.getMaritalStatus().equals("not married") && c.getAge() < 25) {
       premium = basePremium + 1500;
       return premium;
@@ -73,6 +80,7 @@ public class CarInsurance {
       premium = basePremium - 100;
       return premium;
     }
+    
     return basePremium;
     }
 	
@@ -91,10 +99,17 @@ public class CarInsurance {
 	*/
 	public static void main(String[] args) {
 			
-		Customer c1 = new Customer(23, "M", "married", false);
+		Customer c1 = new Customer(23, "A", "married", true);
+		Customer c2 = new Customer(-23, "M", "married", true);
+		
+		
 		CarInsurance car= new CarInsurance();
+		
 		System.out.println(car.computePremium(c1));
-		System.out.println(car.policies(c1));
+		System.out.println(car.computePremium(c2));
+		
+		//System.out.println(car.policies(c1));
+		
 
 	}
 
