@@ -55,40 +55,7 @@ public class CarInsurance {
   */
   final static int basePremium=500; 
 	
-<<<<<<< HEAD
-	/**
-	*
-	* The base insurance cannot be change 
-	* 
-	*/
-	final static int basePremium=500; 
-	
-	/**
-	*
-	* It calculates added or subtracted values for base premium  
-	* 
-	*/
-	public double computePremium(Customer c) {
-		int premium=0;
-		if(c.getSex().equals("M")&& c.getMaritalStatus().equals("not married") && c.getAge()<25) {
-			premium = basePremium + 1500;
-			return premium;
-		}
-		if(c.getSex().equals("F") || c.getMaritalStatus().equals("married")) {
-			premium = basePremium -200;
-			return premium;
-		}
-		if(c.getAge()>=45 && c.getAge()<=65) {
-			premium = basePremium - 100;
-			return premium;
-		}
-		return basePremium;
-	}
-	/**
-	*
-	* Validate customer limit age and if have licence
-	* 
-=======
+
   /**
    * 
   */
@@ -110,8 +77,7 @@ public class CarInsurance {
     }
 	
 	/**
-	 * 
->>>>>>> Origin/CheckStyle
+	 * Validate customer limit age and if have licence
 	*/
 	public String policies(Customer c) {
 		if(c.getAge()>80 || !(c.isHasLicence()) ) {
