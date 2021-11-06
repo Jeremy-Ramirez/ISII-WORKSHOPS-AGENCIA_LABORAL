@@ -64,7 +64,7 @@ public class CarInsurance {
     if(c.getAge()<=0) {
     	return -1;
     }
-    if(c.getSex()!="M"|c.getSex()!="F") {
+    if(c.getSex()!="M"&& c.getSex()!="F") {
     	return -1;
     }
     
