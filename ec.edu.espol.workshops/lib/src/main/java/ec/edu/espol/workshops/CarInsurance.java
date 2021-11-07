@@ -64,7 +64,7 @@ public class CarInsurance {
     if(c.getAge()<=0) {
     	return -1;
     }
-    if(c.getSex()!="M"&& c.getSex()!="F") {
+    if(c.getSex()!="M" && c.getSex()!="F") {
     	return -1;
     }
     
@@ -100,7 +100,7 @@ public class CarInsurance {
 	public static void main(String[] args) {
 		
 		Customer c1 = new Customer(23, "F", "married", false);
-		Customer c2 = new Customer(23, "A", "married", true);
+		Customer c2 = new Customer(46, "M", "not married", true);
 		Customer c3 = new Customer(-23, "M", "married", true);
 		
 		
