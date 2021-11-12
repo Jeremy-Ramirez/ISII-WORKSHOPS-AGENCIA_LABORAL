@@ -99,17 +99,22 @@ public class CarInsurance {
 	*/
 	public static void main(String[] args) {
 		
-		Customer c1 = new Customer(23, "F", "married", false);
-		Customer c2 = new Customer(46, "M", "not married", true);
-		Customer c3 = new Customer(-23, "M", "married", true);
+		Customer c1 = new Customer(15, "M", "not married", false);
+		Customer c2 = new Customer(36, "F", "married", true);
+		Customer c3 = new Customer(19, "A", "married", false);
+		Customer c4 = new Customer(81, "F", "not married", true);
+		//Customer c5 = new Customer(13.5, "M", "married", false);
+		Customer c6 = new Customer(25, "M", "casado", false);
+		//Customer c7 = new Customer(27, "M", "married", falso);
 		
 		
 		CarInsurance car= new CarInsurance();
 		
+		System.out.println(car.computePremium(c1));
 		System.out.println(car.computePremium(c2));
 		System.out.println(car.computePremium(c3));
-		
-		System.out.println(car.policies(c1));
+		System.out.println(car.computePremium(c4));
+		System.out.println(car.computePremium(c6));
 		
 
 	}
