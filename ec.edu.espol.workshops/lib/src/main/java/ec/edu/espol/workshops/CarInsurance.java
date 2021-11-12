@@ -10,12 +10,24 @@ public class CarInsurance {
     public String maritalStatus;
     public boolean hasLicence;
 		
+    
+    public Customer() {
+    	
+    }
+    
     public Customer(int age, String sex, String maritalStatus, boolean hasLicence) {
       this.age = age;
 	  this.sex = sex;
 	  this.maritalStatus = maritalStatus;
 	  this.hasLicence = hasLicence;
     }
+    
+    public Customer(String sex, String maritalStatus, boolean hasLicence) {
+  	  this.sex = sex;
+  	  this.maritalStatus = maritalStatus;
+  	  this.hasLicence = hasLicence;
+      }
+   
 
     public int getAge() {
 	  return age;
@@ -99,17 +111,17 @@ public class CarInsurance {
 	*/
 	public static void main(String[] args) {
 		
-		Customer c1 = new Customer(23, "F", "married", false);
-		Customer c2 = new Customer(46, "M", "not married", true);
-		Customer c3 = new Customer(-23, "M", "married", true);
+		//Customer c1 = new Customer(83, "F", "married", false);
+		//Customer c2 = new Customer(46, "M", "not married", true);
+		Customer c3 = new Customer(36, "F", "married", true);
 		
 		
 		CarInsurance car= new CarInsurance();
 		
-		System.out.println(car.computePremium(c2));
+		//System.out.println(car.computePremium(c2));
 		System.out.println(car.computePremium(c3));
-		
-		System.out.println(car.policies(c1));
+		//c1.setHasLicence(true);
+		//System.out.println(car.policies(c1));
 		
 
 	}
