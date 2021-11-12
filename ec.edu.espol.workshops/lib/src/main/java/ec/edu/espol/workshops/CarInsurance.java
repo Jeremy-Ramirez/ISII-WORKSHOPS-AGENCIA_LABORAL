@@ -110,10 +110,8 @@ public class CarInsurance {
 		Customer c2 = new Customer(36, "F", "married", true);
 		Customer c3 = new Customer(19, "A", "married", false);
 		Customer c4 = new Customer(81, "F", "not married", true);
-		//Customer c5 = new Customer(13.5, "M", "married", false);
+		//Customer c5 = new Customer(13.5, "M", "married", falso);
 		Customer c6 = new Customer(25, "M", "casado", false);
-		//Customer c7 = new Customer(27, "M", "married", falso);
-		Customer c8 = new Customer(27, "M", "not married", true);
 		
 		
 		CarInsurance car= new CarInsurance();
@@ -123,7 +121,6 @@ public class CarInsurance {
 		System.out.println(car.computePremium(c3));
 		System.out.println(car.policies(c4));
 		System.out.println(car.computePremium(c6));
-		System.out.println(car.computePremium(c8));
 
 	}
 
