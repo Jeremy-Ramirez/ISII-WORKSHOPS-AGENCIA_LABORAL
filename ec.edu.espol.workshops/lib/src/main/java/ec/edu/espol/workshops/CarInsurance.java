@@ -9,6 +9,10 @@ public class CarInsurance {
     public String sex;
     public String maritalStatus;
     public boolean hasLicence;
+    
+    public Customer() {
+    	
+    }
 		
     public Customer(int age, String sex, String maritalStatus, boolean hasLicence) {
       this.age = age;
@@ -61,7 +65,7 @@ public class CarInsurance {
   */
   public double computePremium(Customer c) {
     int premium = 0;
-    if(c.getAge()<=0) {
+    if(c.getAge()<18) {
     	return -1;
     }
     if(c.getSex()!="M" && c.getSex()!="F") {
@@ -79,6 +83,9 @@ public class CarInsurance {
     if (c.getAge() >= 45 && c.getAge() <= 65) {
       premium = basePremium - 100;
       return premium;
+    }
+    if(!c.getMaritalStatus().equals("not married") && !c.getMaritalStatus().equals("married")) {
+    	return -1;
     }
     
     return basePremium;
@@ -106,6 +113,7 @@ public class CarInsurance {
 		//Customer c5 = new Customer(13.5, "M", "married", false);
 		Customer c6 = new Customer(25, "M", "casado", false);
 		//Customer c7 = new Customer(27, "M", "married", falso);
+		Customer c8 = new Customer(27, "M", "not married", true);
 		
 		
 		CarInsurance car= new CarInsurance();
@@ -113,9 +121,9 @@ public class CarInsurance {
 		System.out.println(car.computePremium(c1));
 		System.out.println(car.computePremium(c2));
 		System.out.println(car.computePremium(c3));
-		System.out.println(car.computePremium(c4));
+		System.out.println(car.policies(c4));
 		System.out.println(car.computePremium(c6));
-		
+		System.out.println(car.computePremium(c8));
 
 	}
 
