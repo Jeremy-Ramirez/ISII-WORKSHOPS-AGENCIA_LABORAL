@@ -64,32 +64,32 @@ public class CarInsurance {
    * 
   */
   public double computePremium(Customer c) {
-	    int premium = basePremium;
-	    if(c.getAge()<18 || c.getAge()>80) {
-	    	return -1;
-	    }
-	    if(c.getSex()!="M" && c.getSex()!="F") {
-	    	return -1;
-	    }
-	    
-	    if (c.getSex() == "M" && c.getMaritalStatus().equals("not married") && c.getAge() < 25) {
-	      premium = premium + 1500;
-	      //return premium;
-	    }
-	    if (c.getSex() == "F" || c.getMaritalStatus().equals("married")) {
-	      premium = premium - 200;
-	      //return premium;
-	    }
-	    if (c.getAge() >= 45 && c.getAge() < 65) {
-	      premium = premium - 100;
-	      //return premium;
-	    }
-	    if(!c.getMaritalStatus().equals("not married") && !c.getMaritalStatus().equals("married")) {
-	    	return -1;
-	    }
-	    
-	    return premium;
-	    }
+    int premium = 0;
+    if(c.getAge()<18) {
+    	return -1;
+    }
+    if(c.getSex()!="M" && c.getSex()!="F") {
+    	return -1;
+    }
+    
+    if (c.getSex() == "M" && c.getMaritalStatus().equals("not married") && c.getAge() < 25) {
+      premium = basePremium + 1500;
+      return premium;
+    }
+    if (c.getSex() == "F" || c.getMaritalStatus().equals("married")) {
+      premium = basePremium - 200;
+      return premium;
+    }
+    if (c.getAge() >= 45 && c.getAge() <= 65) {
+      premium = basePremium - 100;
+      return premium;
+    }
+    if(!c.getMaritalStatus().equals("not married") && !c.getMaritalStatus().equals("married")) {
+    	return -1;
+    }
+    
+    return basePremium;
+    }
 	
 	/**
 	 * Validate customer limit age and if have licence
@@ -104,30 +104,30 @@ public class CarInsurance {
 	/**
 	 * 
 	*/
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
-		Customer c1 = new Customer(18, "F", "not married", false);
+		Customer c1 = new Customer(18, "F", "not married", true);
 		Customer c2 = new Customer(17, "F", "married", false);
 		Customer c3 = new Customer(19, "M", "married", true);
 		Customer c4 = new Customer(25, "M", "married", true);
 		Customer c5 = new Customer(24, "M", "married", true);
 		
-		Customer c6 = new Customer(26, "M", "married", false);
-		Customer c7 = new Customer(45, "M", "married", false);
-		Customer c8 = new Customer(44, "M", "not married", false);
-		Customer c9 = new Customer(46, "M", "married", false);
-		Customer c10 = new Customer(65, "M", "married", true);
 		
-		Customer c11 = new Customer(64, "M", "not married", false);
-		Customer c12 = new Customer(66, "M", "married", false);
+		Customer c6 = new Customer(26, "M", "married", true );
+		Customer c7 = new Customer(45, "M", "married", true );
+		Customer c8 = new Customer(44, "M", "not married", true );
+		Customer c9 = new Customer(46, "M", "married", true );
+		Customer c10 = new Customer(65, "M", "married", true );
+		
+		
+		Customer c11 = new Customer(64, "M", "not married", true );
+		Customer c12 = new Customer(66, "M", "married", true );
 		Customer c13 = new Customer(80, "M", "not married", true);
-		Customer c14 = new Customer(79, "M", "married", false);
+		Customer c14 = new Customer(79, "M", "married", true);
 		Customer c15 = new Customer(81, "F", "married", true);
 
 		
-		
 		CarInsurance car= new CarInsurance();
-		
 		System.out.println("c1 " + car.computePremium(c1));
 		System.out.println("c2 " + car.computePremium(c2));
 		System.out.println("c3 " + car.computePremium(c3));
