@@ -64,32 +64,32 @@ public class CarInsurance {
    * 
   */
   public double computePremium(Customer c) {
-    int premium = 0;
-    if(c.getAge()<18) {
-    	return -1;
-    }
-    if(c.getSex()!="M" && c.getSex()!="F") {
-    	return -1;
-    }
-    
-    if (c.getSex() == "M" && c.getMaritalStatus().equals("not married") && c.getAge() < 25) {
-      premium = basePremium + 1500;
-      return premium;
-    }
-    if (c.getSex() == "F" || c.getMaritalStatus().equals("married")) {
-      premium = basePremium - 200;
-      return premium;
-    }
-    if (c.getAge() >= 45 && c.getAge() <= 65) {
-      premium = basePremium - 100;
-      return premium;
-    }
-    if(!c.getMaritalStatus().equals("not married") && !c.getMaritalStatus().equals("married")) {
-    	return -1;
-    }
-    
-    return basePremium;
-    }
+	    int premium = basePremium;
+	    if(c.getAge()<18 || c.getAge()>80) {
+	    	return -1;
+	    }
+	    if(c.getSex()!="M" && c.getSex()!="F") {
+	    	return -1;
+	    }
+	    
+	    if (c.getSex() == "M" && c.getMaritalStatus().equals("not married") && c.getAge() < 25) {
+	      premium = premium + 1500;
+	      //return premium;
+	    }
+	    if (c.getSex() == "F" || c.getMaritalStatus().equals("married")) {
+	      premium = premium - 200;
+	      //return premium;
+	    }
+	    if (c.getAge() >= 45 && c.getAge() < 65) {
+	      premium = premium - 100;
+	      //return premium;
+	    }
+	    if(!c.getMaritalStatus().equals("not married") && !c.getMaritalStatus().equals("married")) {
+	    	return -1;
+	    }
+	    
+	    return premium;
+	    }
 	
 	/**
 	 * Validate customer limit age and if have licence
