@@ -112,13 +112,11 @@ public static void main(String[] args) {
 		Customer c4 = new Customer(25, "M", "married", true);
 		Customer c5 = new Customer(24, "M", "married", true);
 		
-		
 		Customer c6 = new Customer(26, "M", "married", true );
 		Customer c7 = new Customer(45, "M", "married", true );
 		Customer c8 = new Customer(44, "M", "not married", true );
 		Customer c9 = new Customer(46, "M", "married", true );
 		Customer c10 = new Customer(65, "M", "married", true );
-		
 		
 		Customer c11 = new Customer(64, "M", "not married", true );
 		Customer c12 = new Customer(66, "M", "married", true );
@@ -143,6 +141,8 @@ public static void main(String[] args) {
 		System.out.println("c13 " + car.computePremium(c13));
 		System.out.println("c14 " + car.computePremium(c14));
 		System.out.println("c15 " + car.computePremium(c15));
+		
+		
 
 	}
 
