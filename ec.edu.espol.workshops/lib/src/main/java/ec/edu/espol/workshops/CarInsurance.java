@@ -65,7 +65,7 @@ public class CarInsurance {
   /**
    * The base insurance cannot be change
   */
-  final static int basePremium=500; 
+  final static int basePremium=600; 
 	
 
   /**
