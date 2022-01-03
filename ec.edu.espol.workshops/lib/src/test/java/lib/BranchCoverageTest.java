@@ -38,7 +38,18 @@ public void testCalculatePremium() {
 	      Customer t6 = new Customer(25,"H","married", true);
 	      double premiumt6 = insurance.computePremium(t6);
 	      //assertEquals(-1, premiumt6, 0.0);
-
+ 
+	      Customer t7= new Customer(50,"M","not married",true);
+	      double premiumt7= insurance.computePremium(t7);
+	      
+	      Customer t8= new Customer(65,"M","not married",true);
+	      double premiumt8= insurance.computePremium(t8);
+	      
+	      Customer t9 = new Customer(45,"M","not married", true);
+	      double premiumt9 = insurance.computePremium(t9);
+	      
+	      Customer t10 = new Customer(30,"M","not married", true);
+	      double premiumt10 = insurance.computePremium(t10);
 	      
 	   }
 
