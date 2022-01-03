@@ -22,11 +22,11 @@ public class CarInsurance {
 	  this.hasLicence = hasLicence;
     }
     
-    public Customer(String sex, String maritalStatus, boolean hasLicence) {
+    /*public Customer(String sex, String maritalStatus, boolean hasLicence) {
   	  this.sex = sex;
   	  this.maritalStatus = maritalStatus;
   	  this.hasLicence = hasLicence;
-      }
+      }*/
    
 
     public int getAge() {
@@ -109,7 +109,7 @@ public class CarInsurance {
 	/**
 	 * 
 	*/
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		
 		//Customer c1 = new Customer(83, "F", "married", false);
 		//Customer c2 = new Customer(46, "M", "not married", true);
@@ -124,7 +124,7 @@ public class CarInsurance {
 		//System.out.println(car.policies(c1));
 		
 
-	}
+	}*/
 
 	
 }
