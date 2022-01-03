@@ -2,7 +2,7 @@ package ec.edu.espol.workshops;
 
 
 //import static org.junit.Assert.*;
-
+/*
 import ec.edu.espol.workshops.CarInsurance.Customer;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -54,4 +54,4 @@ public class StepsDefs {
 	 
 	
 	
-	}
+	}*/
