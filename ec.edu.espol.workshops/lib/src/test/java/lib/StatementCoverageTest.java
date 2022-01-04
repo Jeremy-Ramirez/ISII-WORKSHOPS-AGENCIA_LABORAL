@@ -32,7 +32,7 @@ public class StatementCoverageTest {
 	      
 	      Customer t3 = new Customer(45,"M","married", true);
 	      double premiumt3 = insurance.computePremium(t3);
-	      assertEquals(300, premiumt3, 0.0);
+	      assertEquals(200, premiumt3, 0.0);
 	      
 	      Customer t4 = new Customer(-10,"F","not married", true);
 	      double premiumt4 = insurance.computePremium(t4);
