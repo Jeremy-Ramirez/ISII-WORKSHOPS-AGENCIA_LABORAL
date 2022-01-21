@@ -71,30 +71,36 @@ public class CarInsurance {
   /**
    * 
   */
-  public double computePremium(Customer c) {
-    int premium = 0;
-    if(c.getAge()<=0) {
-    	return -1;
-    }
+public double computePremium(Customer c){
+    int premium = basePremium;
+    if(c.getAge()<18 || c.getAge()>80) {
+		  return -1;
+	}
     if(c.getSex()!="M" && c.getSex()!="F") {
     	return -1;
     }
-    
     if (c.getSex() == "M" && c.getMaritalStatus().equals("not married") && c.getAge() < 25) {
-      premium = basePremium + 1500;
-      return premium;
+      premium = premium + 1500;
     }
+    if(c.getMaritalStatus().equals("not married") && c.getSex().equals("F") && c.getAge()>60) {
+     premium = premium - 50;
+     	
+    }
+    if(c.getMaritalStatus().equals("married") && c.getAge()>30 && c.getAge()<60) {
+        premium = premium - 50;
+        
+  	}
     if (c.getSex() == "F" || c.getMaritalStatus().equals("married")) {
-      premium = basePremium - 200;
-      return premium;
+      premium = premium - 200;
+      
     }
     if (c.getAge() >= 45 && c.getAge() <= 65) {
-      premium = basePremium - 100;
-      return premium;
+      premium = premium - 100;
+      
     }
     
-    return basePremium;
-    }
+    return premium;
+}
 	
 	/**
 	 * Validate customer limit age and if have licence
