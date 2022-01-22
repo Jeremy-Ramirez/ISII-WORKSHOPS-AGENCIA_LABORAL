@@ -117,17 +117,34 @@ public double computePremium(Customer c){
 	*/
 	public static void main(String[] args) {
 		
-		//Customer c1 = new Customer(83, "F", "married", false);
-		//Customer c2 = new Customer(46, "M", "not married", true);
-		Customer c3 = new Customer(36, "F", "married", true);
+		Customer c1 = new Customer(24, "M", "not married", false);
+		Customer c2 = new Customer(36, "F", "married", true);
+		Customer c3 = new Customer(50, "M", "not married", true);
+		Customer c4 = new Customer(81, "F", "married", true);
+		Customer c5 = new Customer(34, "M", "married", true);
+		Customer c6 = new Customer(57, "F", "married", true);
+		Customer c7 = new Customer(49, "M", "married", true);
+		Customer c8 = new Customer(70, "F", "not married", true);
+		//Customer c9 = new Customer(70.5, "F", "not married", true);
+		Customer c10 = new Customer(15, "F", "not married", true);
+		Customer c11 = new Customer(20, "O", "not married", true);
 		
 		
 		CarInsurance car= new CarInsurance();
 		
-		//System.out.println(car.computePremium(c2));
-		System.out.println(car.computePremium(c3));
-		//c1.setHasLicence(true);
-		//System.out.println(car.policies(c1));
+		System.out.println("eeee");
+		System.out.println("c1 " + car.computePremium(c1));
+		System.out.println("c2 " + car.computePremium(c2));
+		System.out.println("c3 " + car.computePremium(c3));
+		System.out.println("c4 " + car.computePremium(c4));
+		System.out.println("c5 " + car.computePremium(c5));
+		System.out.println("c6 " + car.computePremium(c6));
+		System.out.println("c7 " + car.computePremium(c7));
+		System.out.println("c8 " + car.computePremium(c8));
+
+		System.out.println("c10 " + car.computePremium(c10));
+		System.out.println("c11 " + car.computePremium(c11));
+
 		
 
 	}
