@@ -87,7 +87,7 @@ public double computePremium(Customer c){
      	
     }
     if(c.getMaritalStatus().equals("married") && c.getAge()>30 && c.getAge()<60) {
-        premium = premium - 50;
+        premium = premium - 100;
         
   	}
     if (c.getSex() == "F" || c.getMaritalStatus().equals("married")) {
